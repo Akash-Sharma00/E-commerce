@@ -16,10 +16,10 @@ const LoginSignup = () => {
         <p className="loginsignup-login">
             Already have an account? <span>Login here</span>
         </p>
-        <din className="loginsignup-agree">
+        <div className="loginsignup-agree">
             <input type="checkbox" name="" id=""/>
             <p>By contuning, I agree to the terms of use of privacy policy</p>
-        </din>
+        </div>
       </div>
     </div>
   );
