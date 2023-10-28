@@ -3,7 +3,7 @@ import './BreadCrum.css'
 import arrow_icon from '../Assets/breadcrum_arrow.png'
 
 const BreadCrum = ({product}) => {
-  console.log(`hero ${product}`)
+  console.log(`hero ${product.name}`)
   return (
     <div className='breadcrum'>
       Home <img src={arrow_icon} alt="" />Shop <img src={arrow_icon} alt="" />
